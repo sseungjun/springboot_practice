@@ -1,4 +1,4 @@
-#test deploy4
+#test deploy5
 
 spring:
   application:
@@ -41,8 +41,8 @@ cloud:
     region:
       static: ap-northeast-2
     s3:
-      bucket: img-halpme
-      domain: https://img.halpme.site
+      bucket: img-DDuBBukcho
+      domain: https://img.DDuBBukcho.site
 
 logging:
   level:
@@ -50,7 +50,7 @@ logging:
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
   file:
-    name: logs/halpme.log
+    name: logs/DDuBBukcho.log
   logback:
     rolling policy:
       max-history: 7
